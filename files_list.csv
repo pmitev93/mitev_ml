@@ -1,0 +1,31 @@
+ Volume in drive C has no label.
+ Volume Serial Number is FEE7-FD31
+
+ Directory of C:\Users\pmite\Google Drive\ML_scan_project\code
+
+06/02/2021  17:03    <DIR>          .
+06/02/2021  17:03    <DIR>          ..
+06/02/2021  16:59    <DIR>          .idea
+06/02/2021  16:27    <DIR>          Archive
+05/02/2021  20:21               722 auto_entry.py
+05/02/2021  17:26               153 codes.csv
+05/02/2021  17:24               356 codes_stuff.py
+05/02/2021  18:59                52 copy_paste.py
+06/02/2021  17:03               103 exec_another.py
+06/02/2021  17:03                 0 files_list.csv
+05/02/2021  20:02             1.166 import_tef.py
+06/02/2021  16:58               902 mkdir.py
+04/02/2021  12:25           170.099 NisoWebApp_individual_entry.html
+05/02/2021  19:44    <DIR>          NisoWebApp_individual_entry_files
+05/02/2021  20:10           169.674 NisoWebApp_whited2.html
+05/02/2021  20:10    <DIR>          NisoWebApp_whited2_files
+05/02/2021  20:18             1.381 one.py
+05/02/2021  18:37                 0 prog_gui.py
+05/02/2021  17:30           607.491 scan2.pdf
+06/02/2021  17:03               129 t1.py
+05/02/2021  19:28    <DIR>          venv
+05/02/2021  00:46            19.548 win_scan200_yellow.docx
+04/02/2021  22:58           296.916 win_scan200_yellow.pdf
+05/02/2021  20:18    <DIR>          __pycache__
+              16 File(s)      1.268.692 bytes
+               8 Dir(s)  23.292.440.576 bytes free

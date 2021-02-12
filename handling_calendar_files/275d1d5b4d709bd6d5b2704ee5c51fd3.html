@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- saved from url=(0069)https://towardsdatascience.com/media/275d1d5b4d709bd6d5b2704ee5c51fd3 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>click.py – Medium</title><meta name="description" content="You can&#39;t perform that action at this time. You signed in with another tab or window. You signed out in another tab or window. Reload to refresh your session. Reload to refresh your session."><meta name="twitter:widgets:csp" content="on"><meta name="robots" content="noindex"><!--<base target="_blank">--><base href="." target="_blank"><style>body {text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: "ff-tisa-web-pro", Georgia, Cambria, "Times New Roman", Times, serif; font-weight: 400; color: #333332; font-size: 18px; line-height: 1.4; margin: 0; background-color: white; overflow: hidden;}iframe {max-width: 100%;}</style></head><body><style>.gist .gist-file { margin-bottom: 0 !important; }.gist { text-rendering: auto; }</style><script src="./c5274e54b711d478cf9b075efa07217d.js.download" charset="utf-8"></script><link rel="stylesheet" href="./gist-embed-a0f76c222752af1511845e049b8207ba.css"><div id="gist102000314" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-click-py" class="file my-2">
+    
+
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-python  ">
+      
+<table class="highlight tab-size js-file-line-container" data-tab-size="8" data-paste-markdown-skip="">
+      <tbody><tr>
+        <td id="file-click-py-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-click-py-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-c"># Create for loop to click 24 times</span></td>
+      </tr>
+      <tr>
+        <td id="file-click-py-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-click-py-LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-k">for</span> <span class="pl-s1">d</span> <span class="pl-c1">in</span> <span class="pl-en">range</span>(<span class="pl-c1">24</span>):</td>
+      </tr>
+      <tr>
+        <td id="file-click-py-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-click-py-LC3" class="blob-code blob-code-inner js-file-line">    <span class="pl-c"># Search for the button that allows to go back</span></td>
+      </tr>
+      <tr>
+        <td id="file-click-py-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-click-py-LC4" class="blob-code blob-code-inner js-file-line">    <span class="pl-s1">previous</span> <span class="pl-c1">=</span> <span class="pl-s1">driver</span>.<span class="pl-en">find_element_by_xpath</span>(</td>
+      </tr>
+      <tr>
+        <td id="file-click-py-L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="file-click-py-LC5" class="blob-code blob-code-inner js-file-line">        <span class="pl-s">'//*[@id="divCalendario"]/div/div[1]/table/thead/tr[2]/th[1]/i'</span>)</td>
+      </tr>
+      <tr>
+        <td id="file-click-py-L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="file-click-py-LC6" class="blob-code blob-code-inner js-file-line">    <span class="pl-c"># Make click in that button</span></td>
+      </tr>
+      <tr>
+        <td id="file-click-py-L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="file-click-py-LC7" class="blob-code blob-code-inner js-file-line">    <span class="pl-v">ActionChains</span>(<span class="pl-s1">driver</span>).<span class="pl-en">click</span>(<span class="pl-s1">previous</span>).<span class="pl-en">perform</span>()</td>
+      </tr>
+</tbody></table>
+
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/ugis22/c5274e54b711d478cf9b075efa07217d/raw/8bb24ecb4a4a7103fdf23b39c3996d7dc2a0d158/click.py" style="float:right">view raw</a>
+        <a href="https://gist.github.com/ugis22/c5274e54b711d478cf9b075efa07217d#file-click-py">click.py</a>
+        hosted with ❤ by <a href="https://github.com/">GitHub</a>
+      </div>
+    </div>
+</div>
+<script>var height = -1; var delayMs = 200; if (document) {document.domain = document.domain;}function notifyResize(height) {height = height ? height : document.documentElement.offsetHeight; var resized = false; if (window.donkey && donkey.resize) {donkey.resize(height);var elements = document.getElementsByClassName("gist-data"); for (var i = 0; i < elements.length; i++) {elements[i].style.overflow = "visible"}resized = true;}if (parent && parent._resizeIframe) {var obj = {iframe: window.frameElement, height: height}; parent._resizeIframe(obj); resized = true;}if (window.location && window.location.hash === "#amp=1" && window.parent && window.parent.postMessage) {window.parent.postMessage({sentinel: "amp", type: "embed-size", height: height}, "*");}if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.resize) {window.webkit.messageHandlers.resize.postMessage(height); resized = true;}return resized;}function maybeResize() {try {if (document.documentElement.offsetHeight != height && notifyResize()) {height = document.documentElement.offsetHeight;}delayMs = Math.min(delayMs * 2, 1000000); setTimeout(maybeResize, delayMs);} catch(error) {console.log('maybeResize error: ', error)}}maybeResize();</script></body></html>
